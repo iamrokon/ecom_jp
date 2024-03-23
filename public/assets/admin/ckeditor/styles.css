@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Satisfy";
+  src: local('fonts/Satisfy'), url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap") format("truetype");
+}
+
+@font-face {
+  font-family: 'Noto Serif JP', serif;
+  src: local('fonts/NotoSerifJP'), url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap") format("truetype");
+}

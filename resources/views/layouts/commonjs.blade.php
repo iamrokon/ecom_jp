@@ -1,0 +1,20 @@
+<script src="/evara/js/vendor/modernizr-3.6.0.min.js"></script>
+<script src="/evara/js/vendor/jquery-3.6.0.min.js"></script>
+<script src="/evara/js/vendor/jquery-migrate-3.3.0.min.js"></script>
+<script src="/evara/js/vendor/bootstrap.bundle.min.js"></script>
+<script src="/evara/js/plugins/slick.js"></script>
+<script src="/evara/js/plugins/jquery.syotimer.min.js"></script>
+<script src="/evara/js/plugins/wow.js"></script>
+<script src="/evara/js/plugins/jquery-ui.js"></script>
+<script src="/evara/js/plugins/perfect-scrollbar.js"></script>
+<script src="/evara/js/plugins/magnific-popup.js"></script>
+<script src="/evara/js/plugins/select2.min.js"></script>
+<script src="/evara/js/plugins/waypoints.js"></script>
+<script src="/evara/js/plugins/counterup.js"></script>
+<script src="/evara/js/plugins/jquery.countdown.min.js"></script>
+<script src="/evara/js/plugins/images-loaded.js"></script>
+<script src="/evara/js/plugins/isotope.js"></script>
+<script src="/evara/js/plugins/scrollup.js"></script>
+<script src="/evara/js/plugins/jquery.vticker-min.js"></script>
+
+<script src="/evara/js/main.js"></script>

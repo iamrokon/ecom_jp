@@ -1,0 +1,262 @@
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #7367f0 #e2e9e1;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #e2e9e1;
+} 
+
+*::-webkit-scrollbar-thumb {
+    background-color: #7367f0;
+    border-radius: 10px;
+}
+
+/*side bar*/
+/*.sidebar__menu-wrapper{
+	height: 100vh !important;
+	overflow-y: auto !important;
+}*/
+
+/* Chrome, Edge, and Safari */
+/*.slimScrollDiv ::-webkit-scrollbar {
+    width: 7px;
+}
+
+.slimScrollDiv ::-webkit-scrollbar-track {
+    background: transparent;
+} 
+
+.slimScrollDiv ::-webkit-scrollbar-thumb {
+    background-color: #28c76f;
+    border-radius: 5px;
+}*/
+
+.slimScrollBar{
+	background: #7367f0 !important;
+	border-radius: 30px !important;
+	opacity: 1 !important;
+}
+.sidebar .slimScrollDiv .slimScrollBar{
+	background-color: #7367f0 !important;
+	width: 5px !important;
+	border-radius: 30px !important;
+	opacity: 1 !important;
+}
+/* ===== Scrollbar CSS End ===== */
+
+.form-error{
+	border-color: #ea5455 !important;
+}
+
+.row.form-group{
+	display: flex;
+    align-items: center;
+}
+
+.row.form-group label{
+	margin-bottom: 0;
+}
+
+.form-group label span{
+	color: #ea5455;
+	font-size: 14px;
+}
+
+.form-group .mode{
+    font-size: 12px;
+}
+
+.mode{
+    font-size: 12px;
+}
+
+.line-icon{
+	position: relative;
+	padding-left: 15px;
+}
+
+.line-icon:before{
+    content: '';
+	position: absolute;
+    height: 10px;
+    width: 10px;
+    background: #212529;
+    border-radius: 50%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.alert-list{
+	margin: 15px;
+}
+
+.custom-radio .custom-control-input:focus{
+	box-shadow: none;
+}
+
+.custom-radio{
+	display: inline-block;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #7367f0;
+    background-color: #7367f0;
+}
+
+select.form-control{
+	height: 2.6rem;
+	font-size: .875rem;
+}
+
+
+/*table*/
+
+.custom-table td:last-child,
+.custom-table th:last-child{
+	text-align: inherit;
+}
+
+.custom-table thead {
+	padding-bottom: 10px;
+}
+
+.check-active-input,
+.check-active-input1,
+.check-active-input2{
+	position: relative;
+}
+
+.check-active-input .tag,
+.check-active-input1 .tag,
+.check-active-input2 .tag{
+	position: absolute;
+    top: 12px;
+    right: -20px;
+    font-size: 12px;
+}
+
+.d-block{
+	display: block;
+}
+
+.d-none{
+	display: none;
+}
+
+.check-active-input,
+.check-active-button,
+.check-active-input1,
+.check-active-button1,
+.check-active-input2,
+.check-active-button2{
+	display: none;
+}
+
+
+/*Modal*/
+.modal.radio-modal{
+	background-color: #0000006b;
+}
+
+
+/*Table search form*/
+.table-search-form td{
+	padding: 6px 25px !important;
+}
+
+.table-search-form .form-control {
+    height: 2rem !important;
+    padding: 9px 8px;
+}
+
+table.table--light thead th span{
+	cursor: pointer;
+	color: #fff;
+}
+
+/* Fixed table headers with search input fields */
+.fixed-table-header{
+  	max-height: 550px;
+  	overflow-x: auto;
+}
+.fixed-table-header table thead tr:nth-child(1) th {
+  	position: sticky;
+  	top: 0;
+  	z-index: 90;
+}
+
+.fixed-table-header table tbody tr:nth-child(1) td {
+  	position: sticky;
+  	top: 39px;
+  	z-index: 90;
+  	background: #fff;
+}
+
+/*End Fixed table headers with search input fields *
+
+/*Pagination*/
+.custom-pageination-right .pagination{
+	float: right;
+	margin-top: 30px;
+}
+
+.top-arrow{
+	position: relative; 
+	bottom: 5px;
+}
+
+.bottom-arrow{
+	position: relative; 
+	top: 5px; 
+	right: 17px;
+}
+
+
+/*Tabs*/
+.custom-tab-block{
+	border: 1px solid rgba(140, 140, 140, .125);
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.custom-tab{
+	margin-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+}
+
+.custom-tab li a{
+	color: #212529;
+	border-radius: 4px 4px 0 0 !important;
+	padding: 8px 15px;
+	font-weight: 500;
+}
+
+.custom-tab li a:hover{
+	background-color: #eee;
+}
+
+.custom-tab li a.active,
+.custom-tab .show>.nav-link{
+	background-color: #7367f0 !important;
+}
+
+
+/*Responsive*/
+
+@media (max-width: 575px){
+	.table td {
+	    white-space: nowrap; 
+	}
+}

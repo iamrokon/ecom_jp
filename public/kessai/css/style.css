@@ -1,0 +1,79 @@
+@import url(//fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap);
+
+/* @charset "euc-jp"; */ */
+
+/* .tbl {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 0 0 20px;
+} */
+
+/* #main_column .tbl th {
+	width: 182px;
+    text-align: left;
+} */
+
+/* style="quot: ; margin: 0px 15px 40px; padding: 0px; border: 1px solid rgb(181, 160, 104); outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; font-weight: 400; font-style: normal; border-collapse: collapse; border-spacing: 2px; width: 960px; clear: both; position: relative; color: rgb(27, 27, 27); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; white-space: normal; widows: 2; sans-serif: ; table-layout: fixed;" */
+
+/* tbody style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; font-weight: normal; font-style: normal;" */
+/* .tbl tbody{
+    margin:0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+    font-size: 14px;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    font-style: normal;
+} */
+
+/* style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; font-weight: normal; font-style: normal;" */
+.tbl tbody tr {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+    font-size: 14px;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* style="border-left: 1px solid rgb(181, 160, 104); border-right: 1px solid rgb(181, 160, 104); border-top: 1px dashed rgb(181, 160, 104); border-bottom: 1px dashed rgb(181, 160, 104); margin: 0px; padding: 10px; border-image: url('') initial; outline: 0px; font-size: 14px; vertical-align: middle; background: rgb(245, 245, 245); font-weight: normal; font-style: normal; text-align: left; width: 305px;" */
+.tbl tbody tr th{
+    border-left: 1px solid rgb(181, 160, 104);
+    border-right: 1px solid rgb(181, 160, 104);
+    border-top: 1px dashed rgb(181, 160, 104);
+    border-bottom: 1px dashed rgb(181, 160, 104);
+    margin: 0px;
+    padding: 10px;
+    outline: 0px;
+    font-size: 14px;
+    vertical-align: middle;
+    background: rgb(245, 245, 245);
+    font-weight: normal;
+    font-style: normal;
+    text-align: left; width: 305px;
+}
+
+/* style="border-left: 1px solid rgb(181, 160, 104); border-right: 1px solid rgb(181, 160, 104); border-top: 1px dashed rgb(181, 160, 104); border-bottom: 1px dashed rgb(181, 160, 104); margin: 0px; padding: 10px; border-image: url('') initial; outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; font-weight: normal; font-style: normal; text-align: left;" */
+
+.tbl tbody tr td{
+    border-left: 1px solid rgb(181, 160, 104);
+    border-right: 1px solid rgb(181, 160, 104);
+    border-top: 1px dashed rgb(181, 160, 104);
+    border-bottom: 1px dashed rgb(181, 160, 104);
+    margin: 0px;
+    padding: 10px;
+    outline: 0px;
+    font-size: 14px;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+}
+
+
